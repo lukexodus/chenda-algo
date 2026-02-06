@@ -16,9 +16,9 @@
 - [x] Task 2.4: Implement combined score calculator (weighted sum: proximity_weight × proximity_score + freshness_weight × freshness_score)
 
 **Phase 3: Filtering Logic**
-- [ ] Task 3.1: Filter expired products (expiration_date < current_date)
-- [ ] Task 3.2: Filter by proximity radius (distance <= max_radius, default 50km, user-adjustable)
-- [ ] Task 3.3: Optional filter by minimum freshness threshold (shelf_life_% >= threshold, user-toggled)
+- [x] Task 3.1: Filter expired products (expiration_date < current_date)
+- [x] Task 3.2: Filter by proximity radius (distance <= max_radius, default 50km, user-adjustable)
+- [x] Task 3.3: Optional filter by minimum freshness threshold (shelf_life_% >= threshold, user-toggled)
 
 **Phase 4: Scoring & Ranking System**
 - [ ] Task 4.1: Normalize proximity score (0-100, closer = higher score)
