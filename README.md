@@ -1,13 +1,13 @@
-## Step-by-Step Plan
+## Task Progress
 
 **Phase 1: Setup & Data Acquisition**
 - [x] Task 1.1: Download USDA FoodKeeper database from catalog.data.gov
 - [x] Task 1.2: Explore database structure (tables, fields, product categories)
 - [x] Task 1.3: Extract relevant fields (product name, pantry/refrigerator/freezer shelf life)
 - [x] Task 1.4: Transform data into product_types reference format (id, name, default_shelf_life_days)
-- [ ] Task 1.5: Define user object structure (id, name, email, type, location {lat, lng}, preferences)
-- [ ] Task 1.6: Define product object structure (id, seller_id, product_type_id, days_already_used, listed_date, price, quantity, location)
-- [ ] Task 1.7: Create mock data sets (5-10 users, 20-30 products using real USDA product types)
+- [x] Task 1.5: Define user object structure (id, name, email, type, location {lat, lng}, preferences)
+- [x] Task 1.6: Define product object structure (id, seller_id, product_type_id, days_already_used, listed_date, price, quantity, location)
+- [x] Task 1.7: Create mock data sets (5-10 users, 20-30 products using real USDA product types)
 
 **Phase 2: Core Calculation Functions**
 - [ ] Task 2.1: Implement Haversine distance calculator (lat/lng → km)
@@ -43,6 +43,4 @@
 - [ ] Task 7.4: Test weight adjustments (100% proximity, 100% shelf life, 50/50)
 - [ ] Task 7.5: Test edge cases (no products in range, all expired, same location)
 - [ ] Task 7.6: Test storage conditions impact on shelf life
-
----
 
