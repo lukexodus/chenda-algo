@@ -27,9 +27,9 @@
 - [x] Task 4.4: Make weights user-adjustable (default: 50/50, range: 0-100%)
 
 **Phase 5: Sorting & Display Logic**
-- [ ] Task 5.1: Implement ranking mode (sort by combined_score descending)
-- [ ] Task 5.2: Implement filter+sort mode (apply filters, then sort by user choice: price, freshness, distance)
-- [ ] Task 5.3: Add mode toggle functionality
+- [x] Task 5.1: Implement ranking mode (sort by combined_score descending)
+- [x] Task 5.2: Implement filter+sort mode (apply filters, then sort by user choice: price, freshness, distance)
+- [x] Task 5.3: Add mode toggle functionality
 
 **Phase 6: Main Algorithm Integration**
 - [ ] Task 6.1: Create main function that accepts (buyer, products, config)
