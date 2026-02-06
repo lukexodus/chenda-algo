@@ -13,7 +13,7 @@
 - [x] Task 2.1: Implement Haversine distance calculator (lat/lng → km)
 - [x] Task 2.2: Implement shelf life calculator (lookup from USDA data, subtract days_already_used, calculate % remaining, expiration date, storage conditions)
 - [x] Task 2.3: Implement score normalization (proximity distance → 0-100 score, freshness % → 0-100 score)
-- [ ] Task 2.4: Implement combined score calculator (weighted sum: proximity_weight × proximity_score + freshness_weight × freshness_score)
+- [x] Task 2.4: Implement combined score calculator (weighted sum: proximity_weight × proximity_score + freshness_weight × freshness_score)
 
 **Phase 3: Filtering Logic**
 - [ ] Task 3.1: Filter expired products (expiration_date < current_date)
