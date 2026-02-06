@@ -21,10 +21,10 @@
 - [x] Task 3.3: Optional filter by minimum freshness threshold (shelf_life_% >= threshold, user-toggled)
 
 **Phase 4: Scoring & Ranking System**
-- [ ] Task 4.1: Normalize proximity score (0-100, closer = higher score)
-- [ ] Task 4.2: Normalize shelf life score (0-100, fresher = higher score)
-- [ ] Task 4.3: Implement weighted combination (proximity_weight × proximity_score + shelf_life_weight × shelf_life_score)
-- [ ] Task 4.4: Make weights user-adjustable (default: 50/50, range: 0-100%)
+- [x] Task 4.1: Normalize proximity score (0-100, closer = higher score)
+- [x] Task 4.2: Normalize shelf life score (0-100, fresher = higher score)
+- [x] Task 4.3: Implement weighted combination (proximity_weight × proximity_score + shelf_life_weight × shelf_life_score)
+- [x] Task 4.4: Make weights user-adjustable (default: 50/50, range: 0-100%)
 
 **Phase 5: Sorting & Display Logic**
 - [ ] Task 5.1: Implement ranking mode (sort by combined_score descending)
