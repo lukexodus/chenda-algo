@@ -16,13 +16,13 @@ const {
   calculateCombinedScoresBatch,
   sortByCombinedScore,
   calculateAndRank
-} = require('./combined_score_calculator');
+} = require('./combined-score.js');
 
-const { calculateDistance } = require('./haversine_calculator');
-const { calculateShelfLifeMetrics } = require('./shelf_life_calculator');
-const { normalizeScores } = require('./score_normalizer');
-const mockData = require('./mock_data.js');
-const productTypes = require('./product_types_perishables.json');
+const { calculateDistance } = require('../calculations/haversine.js');
+const { calculateShelfLifeMetrics } = require('../calculations/shelf-life.js');
+const { normalizeScores } = require('./score-normalizer.js');
+const mockData = require('../../product-display/mock_data.js');
+const productTypes = require('../../product-management/product-types.json');
 
 console.log('🧪 Combined Score Calculator Integration Test\n');
 console.log('=' .repeat(80));

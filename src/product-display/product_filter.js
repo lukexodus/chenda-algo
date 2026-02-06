@@ -12,7 +12,7 @@
  */
 
 // Import Phase 2 filter functions
-const { filterExpiredProducts, filterByFreshness } = require('./shelf_life_calculator');
+const { filterExpiredProducts, filterByFreshness } = require('../core-algorithm/calculations/shelf-life');
 
 /**
  * Filter products by proximity radius

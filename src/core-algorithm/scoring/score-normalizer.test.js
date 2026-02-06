@@ -15,12 +15,12 @@ const {
   normalizeFreshnessScore,
   normalizeScores,
   normalizeScoresBatch
-} = require('./score_normalizer');
+} = require('./score-normalizer.js');
 
-const { calculateDistance, calculateDistanceBatch } = require('./haversine_calculator');
-const { calculateShelfLifeMetricsBatch, calculateShelfLifeMetrics } = require('./shelf_life_calculator');
-const mockData = require('./mock_data.js');
-const productTypes = require('./product_types_perishables.json');
+const { calculateDistance, calculateDistanceBatch } = require('../calculations/haversine.js');
+const { calculateShelfLifeMetricsBatch, calculateShelfLifeMetrics } = require('../calculations/shelf-life.js');
+const mockData = require('../../product-display/mock_data.js');
+const productTypes = require('../../product-management/product-types.json');
 
 console.log('🧪 Score Normalization Integration Test\n');
 console.log('=' .repeat(80));

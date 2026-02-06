@@ -14,7 +14,7 @@
  */
 
 const { scoreAndRankProducts, rankByScore } = require('./product_ranker');
-const { applyFilters } = require('./product_filter');
+const { applyFilters } = require('../../product-display/product_filter');
 
 /**
  * Sort products by a specific criterion

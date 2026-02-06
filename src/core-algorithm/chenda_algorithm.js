@@ -13,11 +13,11 @@
  * @module chenda_algorithm
  */
 
-const { calculateDistance } = require('./haversine_calculator.js');
-const { calculateShelfLifeMetrics } = require('./shelf_life_calculator.js');
-const productFilter = require('./product_filter.js');
-const productRanker = require('./product_ranker.js');
-const productSorter = require('./product_sorter.js');
+const { calculateDistance } = require('./calculations/haversine.js');
+const { calculateShelfLifeMetrics } = require('./calculations/shelf-life.js');
+const productFilter = require('../product-display/product_filter.js');
+const productRanker = require('./ranking/product_ranker.js');
+const productSorter = require('./ranking/product_sorter.js');
 
 /**
  * Main Chenda Algorithm - Unified pipeline for perishable product ranking

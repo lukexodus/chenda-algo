@@ -8,7 +8,7 @@
  * - Product Types: From product_types_perishables.json (180 real items)
  */
 
-const perishables = require('./product_types_perishables.json');
+const perishables = require('../product-management/product-types.json');
 
 // ============================================================================
 // MOCK USERS (10 total: 5 buyers, 3 sellers, 2 both)

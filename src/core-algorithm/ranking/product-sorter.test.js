@@ -20,10 +20,10 @@ const {
   createDisplayConfig
 } = require('./product_sorter');
 
-const { calculateDistance } = require('./haversine_calculator');
-const { calculateShelfLifeMetrics } = require('./shelf_life_calculator');
-const { mockProducts, mockUsers } = require('./mock_data');
-const productTypes = require('./product_types_perishables.json');
+const { calculateDistance } = require('../calculations/haversine');
+const { calculateShelfLifeMetrics } = require('../calculations/shelf-life');
+const { mockProducts, mockUsers } = require('../../product-display/mock_data');
+const productTypes = require('../../product-management/product-types.json');
 
 console.log('🧪 Product Sorter Integration Test\n');
 console.log('='.repeat(80));

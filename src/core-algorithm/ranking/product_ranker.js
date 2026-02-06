@@ -21,12 +21,12 @@
 const { 
   normalizeProximityScore, 
   normalizeFreshnessScore 
-} = require('./score_normalizer');
+} = require('../scoring/score-normalizer');
 
 const { 
   calculateCombinedScore,
   calculateCombinedScoresBatch 
-} = require('./combined_score_calculator');
+} = require('../scoring/combined-score');
 
 /**
  * Score and rank products for a buyer

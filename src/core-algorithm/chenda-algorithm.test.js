@@ -10,7 +10,7 @@
  */
 
 const { chendaAlgorithm, quickSearch, searchByPrice, searchByDistance, searchByFreshness } = require('./chenda_algorithm');
-const mockData = require('./mock_data');
+const mockData = require('../product-display/mock_data');
 
 console.log('Running chenda_algorithm.js integration tests...\n');
 
@@ -38,7 +38,7 @@ const buyers = mockData.mockUsers.filter(user => user.type === 'buyer' || user.t
 const rawProducts = mockData.mockProducts;
 
 // Load product types to enrich products with shelf life data
-const productTypes = require('./product_types_perishables.json');
+const productTypes = require('../product-management/product-types.json');
 
 // Create a map of product types by ID for quick lookup
 const productTypeMap = {};

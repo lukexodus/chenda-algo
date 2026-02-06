@@ -18,14 +18,14 @@ const {
   getFilterSummary,
   checkProductFilters,
   createFilterConfig
-} = require('./product_filter');
+} = require('./product_filter.js');
 
-const { calculateDistance } = require('./haversine_calculator');
-const { calculateShelfLifeMetrics } = require('./shelf_life_calculator');
-const { normalizeScores } = require('./score_normalizer');
-const { calculateAndRank } = require('./combined_score_calculator');
+const { calculateDistance } = require('../core-algorithm/calculations/haversine.js');
+const { calculateShelfLifeMetrics } = require('../core-algorithm/calculations/shelf-life.js');
+const { normalizeScores } = require('../core-algorithm/scoring/score-normalizer.js');
+const { calculateAndRank } = require('../core-algorithm/scoring/combined-score.js');
 const mockData = require('./mock_data.js');
-const productTypes = require('./product_types_perishables.json');
+const productTypes = require('../product-management/product-types.json');
 
 console.log('🧪 Product Filter Integration Test\n');
 console.log('='.repeat(80));

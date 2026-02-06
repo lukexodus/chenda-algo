@@ -3,8 +3,8 @@
  * Demonstrates usage with mock users and products data
  */
 
-const haversine = require('./haversine_calculator.js');
-const mockData = require('./mock_data.js');
+const haversine = require('./haversine.js');
+const mockData = require('../../product-display/mock_data.js');
 
 console.log('=== Haversine Calculator Integration Test ===\n');
 

@@ -3,9 +3,9 @@
  * Demonstrates usage with mock products and real USDA product types
  */
 
-const shelfLife = require('./shelf_life_calculator.js');
-const mockData = require('./mock_data.js');
-const productTypes = require('./product_types_perishables.json');
+const shelfLife = require('./shelf-life.js');
+const mockData = require('../../product-display/mock_data.js');
+const productTypes = require('../../product-management/product-types.json');
 
 console.log('=== Shelf Life Calculator Integration Test ===\n');
 
